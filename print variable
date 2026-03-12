@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Solution {
+    
+    public static void main(String[] args) {
+        
+        int num1;
+        double num2;
+        String s1;
+        
+        Scanner s = new Scanner(System.in);
+        
+        num1 = s.nextInt();
+        num2 = s.nextDouble();
+        s1 = s.next();
+        
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(s1);
+    }
+}
