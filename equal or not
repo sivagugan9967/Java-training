@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int x,y;
+        Scanner a = new Scanner (System.in);
+        x=a.nextInt();
+        y=a.nextInt();
+        if(x==y)
+        {
+            System.out.println("Equal");}
+        else{
+            System.out.println("Not Equal");
+                
+            }
+        }
+    }
