@@ -1,0 +1,24 @@
+import java.util.*;
+public class example
+{
+    public static void main(String[]arg)
+    {
+        int x,y,z,l;
+        Scanner s= new Scanner(System.in);
+        x=s.nextInt();
+        
+        l=0;
+        z=0;
+        for(int i=1 ; i<=x; i++)
+        {
+            if(i%2==0)
+            {
+                z=z+i;
+            }
+            else if (i%2!=0)
+            l=l+i;
+        }
+         System.out.println(z);
+         System.out.println(l);
+    }
+}
